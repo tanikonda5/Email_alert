@@ -11,9 +11,9 @@ import pandas as pd
 
 
 def open_database_connection():
-    connection_string = 'ODSHDPIN' + "/" + 'Hdp5$inf' + \
-                        "@" + 'scan-prd-3066.cisco.com' + ":" + '1841' + \
-                        "/" + 'ODSPROD.cisco.com'
+    connection_string = '' + "/" + '' + \
+                        "@" + '' + ":" + '' + \
+                        "/" + ''
 
     conn = cx_Oracle.connect(connection_string)
 
